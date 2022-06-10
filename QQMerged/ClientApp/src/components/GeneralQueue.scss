@@ -1,0 +1,241 @@
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+    color: #555555;
+}
+
+.main_block {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.queue_block {
+    padding-top: 2%;
+    flex-wrap: wrap-reverse;
+}
+
+.queue_name {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    padding: 1% 2% 1% 2%;
+    font-size: 3.5vh;
+}
+
+.queue_edit_button {
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 50px;
+    height: 50px;
+    
+    margin: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.copy_link_button {
+    @extend .queue_edit_button;
+}
+
+.queue {
+    background-color: white;
+    width: 100%;
+    height: 65vh;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 30px;
+    padding: 3% 3%;
+    padding-right: 2%;
+}
+
+.buttons {
+    margin: unset;
+}
+
+.button {
+    display: flex;
+    padding-bottom: 50%;
+    justify-content: center;
+}
+
+.base_button {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 15px;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    font-size: 3vw;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.next_button {
+    @extend .base_button;
+    background-color: #82FF9D;
+}
+
+.ppl_inqueue {
+    @extend .base_button;
+    font-size: 8vw;
+    cursor: default;
+}
+
+.freeze_button {
+    @extend .base_button;
+    background-color: white;
+    font-size: 2vw;
+}
+
+.freeze_button > img {
+    height: 75%;
+}
+
+.clicker {
+    @extend .base_button;
+    background-color: white;
+    color: white;
+    transition-duration: 0.3s;
+    font-size: 4vw;
+}
+
+.clicker:active {
+    transition-duration: 0s;
+    width: 100%;
+    height: 100%;
+    margin-top: unset;
+}
+
+.your_place {
+    @extend .base_button;
+    background-color: white;
+    font-size: 2vw;
+    cursor: default;
+}
+
+.join_button {
+    @extend .base_button;
+    background-color: white;
+    font-size: 2vw;
+}
+
+.spinner {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 274%;
+    color: white;
+    animation: 1s linear infinite spinner-border;
+}
+
+.spinnerDiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 6%;
+}
+
+@keyframes pop-out {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.QItem {
+    background-color: #F4F4F4;
+    height: 60px;
+    margin-bottom: 14px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    font-size: 28px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin-right: 25px;
+    margin-light: 3px;
+}
+
+.queue_name_col {
+    display: flex;
+    align-items: center;
+}
+
+.col3_custom {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.queue_state {
+    width: 36px;
+    height: 36px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 23.44%, rgba(0, 0, 0, 0.2) 100%);
+    border-radius: (50% 50% 50% 50%);
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+
+@media (max-width: 575.98px) {
+    .queue {
+        height: 60vh;
+        margin-top: 2%;
+    }
+
+    .buttons {
+        flex-wrap: nowrap;
+    }
+
+    .button {
+        padding-bottom: 25%;
+    }
+
+    .next_button {
+        font-size: 5vw;
+    }
+
+    .ppl_inqueue {
+        font-size: 11vw;
+    }
+
+    .queue_name {
+        padding: 2% 5% 2% 5%;
+        font-size: 2.5vh;
+    }
+
+    .queue_edit_button {
+        width: 45px;
+        height: 45px;
+        margin: 5px;
+    }
+
+    .your_place {
+        font-size: 4vw;
+    }
+
+    .join_button {
+        font-size: 4vw;
+    }
+
+    .clicker {
+        font-size: 8vw;
+    }
+
+    .freeze_button {
+        font-size: 4vw;
+    }
+}

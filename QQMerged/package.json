@@ -1,0 +1,4 @@
+  "dependencies": {
+    "@aspnet/signalr": "^1.0.27"
+  }
+}

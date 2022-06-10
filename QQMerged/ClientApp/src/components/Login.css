@@ -1,0 +1,245 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.mainbox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 35em;
+    width: 90%;
+}
+
+.inputitem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom:5px;
+}
+
+.inputbox {
+    display: flex;
+    align-items: center;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 2px rgb(0 0 0 / 35%);
+    border-radius: 20px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+.form-control {
+    outline: none !important;
+    border: none !important;
+    border-radius: 20px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    max-height: 50px;
+    font-size: 1.5em;
+}
+
+h1, .h1 {
+    font-size: 4em;
+}
+
+.btns {
+    margin: unset;
+}
+
+
+.login_btn, .login_btn:hover, .login_btn:focus-visible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDB734;
+    height: 60px;
+    padding: 1px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    color: white;
+    text-align: center;
+    font-family: 'Ropa Sans';
+    font-size: 2.2em;
+    font-weight: 100;
+}
+
+/*.login_btn:hover, .login_btn:focus-visible {
+    @extend .login_btn
+    height: 60px;
+}*/
+
+
+.forgotpass_btn, .forgotpass_btn:hover, .forgotpass_btn:focus-visible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    height: 4em;*/
+    color: #555555;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Ropa Sans';
+}
+
+.login_register_btn {
+    display: flex;
+    align-items: center;
+    /*    height: 4em;*/
+    color: white;
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: 'Ropa Sans';
+}
+
+.remember_btn {
+    display: flex;
+    align-items: center;
+    height: 4em;
+    color: #555555;
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: 'Ropa Sans';
+}
+
+
+.google_btn {
+    transition: background-color .3s, box-shadow .3s;
+    padding: 12px 16px 12px 42px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+    margin-bottom:2%;
+}
+
+bottom_box {
+    display: flex;
+    align-items: center;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 2px rgb(0 0 0 / 35%);
+    border-radius: 20px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.or_box {
+    white-space: nowrap;
+    display: flex;
+    margin-top:10px;
+    color:#555555;
+    opacity:50%;
+    font-size:0.9em;
+    
+}
+.checkbox_container {
+  
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    height: 2em;
+    color: #555555;
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: 'Ropa Sans';
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox_container:hover input ~ .checkmark {
+    background-color: #EDB734 !important;
+}
+
+.checkbox_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.checkbox_container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+
+.checkbox_container input:checked ~ .checkmark {
+    background-color: #EDB734;
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.checkbox_container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+
+.checkbox_container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+    @media (min-width: 576px) {
+
+        .mainbox {
+            margin-top: 10%;
+        }
+
+        .login_btn {
+            margin-left: 40%;
+            margin-top: 15px;
+        }
+
+        .forgotpass_btn {
+            margin-left: 73%;
+        }
+        .or_box{
+            font-size:1em;
+            margin-top:5%;
+        }
+    }

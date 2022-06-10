@@ -1,0 +1,78 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.flexbox {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 15px;
+}
+
+.flexboxvert {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.item {
+}
+
+.iteminput {
+    border: 10px solid white;
+    border-radius: 20px;
+    min-width: 450px;
+    min-height: 45px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.iteminput1 {
+    border: 10px solid white;
+    border-radius: 20px;
+    min-width: 450px;
+    min-height: 150px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.flexboxvert1 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    margin-bottom: 15px;
+}
+
+
+
+.flexboxvert2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    margin-bottom: 15px;
+    background-color: pink;
+}
+
+.formbutton {
+    display: block;
+    color: white;
+    background: #edb734;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    border-color: #edb734;
+}

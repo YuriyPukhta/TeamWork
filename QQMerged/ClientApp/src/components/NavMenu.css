@@ -1,0 +1,72 @@
+﻿﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+    background-color: #83E4C1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("/public/toggler-icon.png");
+}
+
+.navbar-toggler {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-left: 85%;
+    margin-top: 1%;
+}
+
+.signup_button {
+    display: flex;
+    min-width: 130px;
+    height: 50px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 18px;
+    color: #555555;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.navNotCollapsed {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navCollapsed {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.navCollapsed > a {
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 0px !important;
+}
+
+a, a:hover, a:focus-visible {
+    border:none;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 20px;
+}

@@ -1,0 +1,60 @@
+{
+  "name": "quique",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aspnet/signalr": "^1.0.27",
+    "@microsoft/signalr": "^6.0.5",
+    "bootstrap": "^4.6.1",
+    "jquery": "^3.6.0",
+    "js-cookie": "^3.0.1",
+    "merge": "^2.1.1",
+    "oidc-client": "^1.11.5",
+    "overlayscrollbars": "^1.13.1",
+    "overlayscrollbars-react": "^0.2.3",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-bootstrap": "^0.26.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^5.0.0",
+    "react-virtuoso": "^2.3.1",
+    "reactstrap": "^9.0.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.49.7"
+  },
+  "devDependencies": {
+    "ajv": "^8.10.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.8.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "nan": "^2.15.0",
+    "typescript": "^4.5.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "scripts": {
+    "start": "rimraf ./build && react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src/"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
